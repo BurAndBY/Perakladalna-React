@@ -15,12 +15,13 @@
   position: relative;
   max-width: 100%;
   min-width: 100%;
-  min-height: 80vh;
+  max-height: 100%;
+  min-height: 100%;
   align-items: center;
   flex-direction: column;
   background-size: cover;
   justify-content: flex-start;
-  background-image: url("/playground_assets/jackboxpartypack5_review-1500h.jpg");
+  background-image: url("/playground_assets/9-1500w.png");
 }
 .str-text {
   color: #ffffff;
@@ -29,16 +30,25 @@
   font-family: Manrope;
   font-weight: 900;
 }
-.str-text3 {
+.str-text03 {
   font-weight: 200;
 }
-.str-text5 {
+.str-text05 {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  font-family: Manrope;
+  font-weight: 500;
+}
+.str-text16 {
   top: 534px;
   left: 337px;
   position: absolute;
 }
 .str-button {
-  top: 341px;
+  top: 541px;
   left: var(--dl-space-space-fourunits);
   color: #ffffff;
   width: var(--dl-size-size-xxlarge);

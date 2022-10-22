@@ -25,10 +25,45 @@ const Str = (props) => {
         <h1 className="str-text">
           <span>Разделі Пакой</span>
           <br></br>
-          <span className="str-text3">   Першы рэліз</span>
+          <span className="str-text03">   Першы рэліз</span>
           <br></br>
         </h1>
-        <span className="str-text5"></span>
+        <span className="str-text05">
+          <span>
+            Раздзелі Пакой - адна з гульняў у Jackpot Party Pack 5.
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <br></br>
+          <span>
+            Гульня ўяўляе сабой гульню ў стылі &quot;вы б аддалі перавагу&quot;,
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <br></br>
+          <span>галоўная мэта якой складаецца ў тым, каб паспрабаваць</span>
+          <br></br>
+          <span> падзяліць думкі іншых гульцоў. </span>
+          <span>
+            Чым менш група прагаласуе за адзін
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <br></br>
+          <span>
+            варыянт у параўнанні з іншым, тым больш ачкоў вы атрымаеце.
+          </span>
+        </span>
+        <span className="str-text16"></span>
         <button className="str-button button">Спампаваць</button>
       </div>
     </div>
