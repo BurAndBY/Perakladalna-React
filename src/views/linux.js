@@ -20,7 +20,7 @@ const Linux = (props) => {
           content="Здесь можна знайсці пераклады на розныя гульні на беларускую мову!"
         />
       </Helmet>
-      <Header></Header>
+      <Header rootClassName="header-root-class-name2"></Header>
       <div className="linux-hero">
         <div className="linux-container1">
           <h1 className="linux-text">Linux</h1>

@@ -12,10 +12,14 @@
   justify-content: space-between;
   background-color: #000000;
 }
+.header-navlink {
+  display: contents;
+}
 .header-image {
   width: 310px;
   height: 83px;
   padding-top: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .header-nav {
   flex: 0 0 auto;
@@ -86,6 +90,22 @@
   min-width: 100%;
 }
 .header-root-class-name1 {
+  max-width: 100%;
+  min-width: 100%;
+}
+.header-root-class-name2 {
+  max-width: 100%;
+  min-width: 100%;
+}
+.header-root-class-name3 {
+  max-width: 100%;
+  min-width: 100%;
+}
+.header-root-class-name4 {
+  max-width: 100%;
+  min-width: 100%;
+}
+.header-root-class-name5 {
   max-width: 100%;
   min-width: 100%;
 }

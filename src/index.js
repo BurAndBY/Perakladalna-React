@@ -6,7 +6,7 @@ import './style.css'
 import Page from './views/page'
 import Games from './views/games'
 import Linux from './views/linux'
-import STR from './views/s-t-r'
+import Str from './views/str'
 import Windows from './views/windows'
 import AboutUs from './views/about-us'
 
@@ -17,7 +17,7 @@ const App = () => {
         <Route component={Page} exact path="/" />
         <Route component={Games} exact path="/games" />
         <Route component={Linux} exact path="/linux" />
-        <Route component={STR} exact path="/s-t-r" />
+        <Route component={Str} exact path="/str" />
         <Route component={Windows} exact path="/windows" />
         <Route component={AboutUs} exact path="/about-us" />
       </div>

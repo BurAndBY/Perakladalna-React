@@ -25,7 +25,7 @@ const Page = (props) => {
       <div className="page-container1">
         <h1 className="page-text">Разделі Пакой</h1>
         <h1 className="page-text1">Апошняе аднаўленне 22.10.2022</h1>
-        <Link to="/s-t-r" className="page-navlink button">
+        <Link to="/str" className="page-navlink button">
           Спампаваць
         </Link>
       </div>

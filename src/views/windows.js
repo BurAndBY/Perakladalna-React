@@ -20,7 +20,7 @@ const Windows = (props) => {
           content="Здесь можна знайсці пераклады на розныя гульні на беларускую мову!"
         />
       </Helmet>
-      <Header></Header>
+      <Header rootClassName="header-root-class-name3"></Header>
       <div className="windows-hero">
         <div className="windows-container1">
           <h1 className="windows-text">Windows</h1>

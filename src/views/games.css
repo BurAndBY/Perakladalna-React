@@ -23,7 +23,7 @@
 .games-feature-card {
   top: 243px;
   left: 133px;
-  width: 1142px;
+  width: 955px;
   display: flex;
   padding: var(--dl-space-space-unit);
   position: absolute;
@@ -36,13 +36,13 @@
   background-size: cover;
   justify-content: center;
   text-decoration: none;
-  background-image: url("/playground_assets/ijld6nh-jvthyidykjkczgwqrhfmetmxojvzcjlriye-1500h.webp");
+  background-image: url("/playground_assets/9-1500h.png");
 }
 .games-feature-card:hover {
   transform: scale(1.02);
 }
 .games-text {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   font-size: 3rem;
   font-family: Manrope;
   margin-bottom: var(--dl-space-space-unit);

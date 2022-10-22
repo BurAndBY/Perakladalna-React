@@ -20,7 +20,7 @@ const AboutUs = (props) => {
           content="Здесь можна знайсці пераклады на розныя гульні на беларускую мову!"
         />
       </Helmet>
-      <Header></Header>
+      <Header rootClassName="header-root-class-name4"></Header>
       <div className="about-us-hero">
         <div className="about-us-container1">
           <h1 className="about-us-text">А нас</h1>
