@@ -20,7 +20,7 @@ const STR = (props) => {
           content="Здесь можна знайсці пераклады на розныя гульні на беларускую мову!"
         />
       </Helmet>
-      <Header></Header>
+      <Header rootClassName="header-root-class-name1"></Header>
       <div className="s-t-r-hero">
         <h1 className="s-t-r-text">
           <span>Разделі Пакой</span>
