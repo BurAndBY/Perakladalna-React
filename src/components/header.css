@@ -1,6 +1,6 @@
 .header-header {
   width: 100%;
-  height: 92px;
+  height: 72px;
   display: flex;
   position: relative;
   max-width: var(--dl-size-size-maxwidth);
@@ -18,7 +18,6 @@
 .header-image {
   width: 310px;
   height: auto;
-  padding-top: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .header-nav {
@@ -125,7 +124,13 @@
 }
 @media(max-width: 479px) {
   .header-header {
+    width: 100%;
     padding: var(--dl-space-space-unit);
+    margin-right: 0px;
+  }
+  .header-icon {
+    width: 100px;
+    height: 42px;
   }
   .header-mobile-menu {
     padding: 16px;
