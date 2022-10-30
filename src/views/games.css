@@ -31,12 +31,12 @@
   box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
   transition: 0.3s;
   align-items: center;
-  border-radius: 4px;
+  border-radius: 10px;
   flex-direction: column;
   background-size: cover;
   justify-content: center;
   text-decoration: none;
-  background-image: url("/playground_assets/9-1500h.png");
+  background-image: url("/playground_assets/bgjb2-1500h.png");
 }
 .games-feature-card:hover {
   transform: scale(1.02);

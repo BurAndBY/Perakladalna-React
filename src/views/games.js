@@ -25,7 +25,7 @@ const Games = (props) => {
       <div className="games-hero">
         <Link to="/str" className="games-navlink">
           <div className="games-feature-card">
-            <h2 className="games-text">Разделі Пакой</h2>
+            <h2 className="games-text">Тут Будут Рэлізы!</h2>
           </div>
         </Link>
         <div className="games-container1">
