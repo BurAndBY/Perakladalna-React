@@ -17,9 +17,6 @@
   flex-direction: column;
   justify-content: center;
 }
-.games-navlink {
-  display: contents;
-}
 .games-feature-card {
   top: 243px;
   left: 133px;
@@ -35,7 +32,6 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  text-decoration: none;
   background-image: url("/playground_assets/bgjb2-1500h.png");
 }
 .games-feature-card:hover {
@@ -43,9 +39,9 @@
 }
 .games-text {
   color: rgb(255, 255, 255);
+  margin: var(--dl-space-space-unit);
   font-size: 3rem;
   font-family: Manrope;
-  margin-bottom: var(--dl-space-space-unit);
 }
 .games-container1 {
   display: flex;
