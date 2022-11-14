@@ -108,6 +108,10 @@
   max-width: 100%;
   min-width: 100%;
 }
+.header-root-class-name6 {
+  max-width: 100%;
+  min-width: 100%;
+}
 @media(max-width: 767px) {
   .header-header {
     padding-left: var(--dl-space-space-twounits);

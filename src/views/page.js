@@ -23,18 +23,20 @@ const Page = (props) => {
       </Helmet>
       <Header rootClassName="header-root-class-name"></Header>
       <div className="page-container1">
-        <h1 className="page-text">Жартлыст 2 Інтэрлыстыянальны</h1>
-        <h1 className="page-text1">Апошняе аднаўленне 22.10.2022</h1>
-        <button className="page-button button">У праце</button>
+        <h1 className="page-text">Celeste</h1>
+        <h1 className="page-text1">Апошняе аднаўленне 14.11.2022</h1>
+        <Link to="/celeste" className="page-navlink button">
+          Спампаваць
+        </Link>
       </div>
       <div className="page-hero">
         <div className="page-container2">
           <h1 className="page-text2">Інструкцыя па усталёўцы</h1>
           <div className="page-btn-group">
-            <Link to="/windows" className="page-navlink button">
+            <Link to="/windows" className="page-navlink1 button">
               Windows
             </Link>
-            <Link to="/linux" className="page-navlink1 button">
+            <Link to="/linux" className="page-navlink2 button">
               Linux
             </Link>
           </div>

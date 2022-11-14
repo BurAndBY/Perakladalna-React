@@ -74,8 +74,9 @@
 }
 .teleport-show {
   display: flex !important;
+  transform: none !important;
 }
-.content {
+.Content {
   font-size: 16px;
   font-family: Inter;
   font-weight: 400;
@@ -83,7 +84,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.heading {
+.Heading {
   font-size: 32px;
   font-family: Inter;
   font-weight: 700;

@@ -23,7 +23,7 @@ const Games = (props) => {
       <Header rootClassName="header-root-class-name5"></Header>
       <div className="games-hero">
         <div className="games-feature-card">
-          <h2 className="games-text">Тут Будут Рэлізы!</h2>
+          <h2 className="games-text">Celeste</h2>
         </div>
         <div className="games-container1">
           <h1 className="games-text1">Гульні</h1>

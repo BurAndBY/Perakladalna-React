@@ -15,7 +15,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url("/playground_assets/65-900h.jpg");
+  background-image: url("/playground_assets/maxresdefault-900h.jpg");
   background-position: center;
 }
 .page-text {
@@ -35,7 +35,7 @@
   font-family: Manrope;
   font-weight: 300;
 }
-.page-button {
+.page-navlink {
   color: rgb(255, 255, 255);
   width: 319px;
   height: 75px;
@@ -45,10 +45,11 @@
   font-family: Manrope;
   font-weight: 700;
   padding-top: var(--dl-space-space-unit);
-  border-color: #3a3939;
+  border-color: var(--dl-color-gray-black);
   border-radius: 7px;
   padding-bottom: 1rem;
-  background-color: #3a3939;
+  text-decoration: none;
+  background-color: var(--dl-color-gray-black);
 }
 .page-hero {
   width: 100%;
@@ -80,7 +81,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.page-navlink {
+.page-navlink1 {
   color: var(--dl-color-gray-white);
   transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
@@ -90,10 +91,10 @@
   text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
-.page-navlink:hover {
+.page-navlink1:hover {
   transform: scale(1.02);
 }
-.page-navlink1 {
+.page-navlink2 {
   transition: 0.3s;
   margin-left: var(--dl-space-space-unit);
   padding-top: var(--dl-space-space-unit);
@@ -102,7 +103,7 @@
   padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.page-navlink1:hover {
+.page-navlink2:hover {
   transform: scale(1.02);
 }
 @media(max-width: 991px) {
@@ -152,7 +153,7 @@
   .page-btn-group {
     flex-direction: column;
   }
-  .page-navlink1 {
+  .page-navlink2 {
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
   }
