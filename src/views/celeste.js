@@ -37,7 +37,7 @@ const Celeste = (props) => {
         </span>
         <span className="celeste-text6"></span>
         <a
-          href="https://gamebanana.com/mods/412081"
+          href="https://gamebanana.com/mods/412080"
           target="_blank"
           rel="noreferrer noopener"
           className="celeste-link button"
