@@ -27,41 +27,41 @@
   font-size: 3rem;
   max-width: 450px;
 }
-.windows-text1 {
+.windows-text01 {
   font-size: 32px;
   margin-top: var(--dl-space-space-twounits);
   font-family: Manrope;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.windows-text2 {
-  font-size: 32px;
-  font-style: normal;
-  font-family: Manrope;
-  font-weight: 700;
-}
-.windows-text3 {
+.windows-text02 {
   font-style: normal;
   font-weight: 700;
 }
-.windows-text4 {
+.windows-text05 {
+  font-weight: 700;
+}
+.windows-text08 {
   color: #ff0000;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
 }
-.windows-text5 {
+.windows-text09 {
   color: #ff0000;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
 }
-.windows-text6 {
+.windows-text10 {
   color: #ff0000;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
 }
-.windows-text7 {
+.windows-text11 {
+  color: #ff0000;
+}
+.windows-text12 {
   color: #ff0000;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 800;
 }
 @media(max-width: 991px) {
   .windows-hero {
@@ -76,7 +76,7 @@
   .windows-text {
     text-align: center;
   }
-  .windows-text1 {
+  .windows-text01 {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
@@ -87,9 +87,51 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .windows-text1 {
+  .windows-text01 {
+    font-size: 32px;
+    font-family: Manrope;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
+  }
+  .windows-text02 {
+    font-size: 32px;
+    font-style: normal;
+    font-family: Manrope;
+    font-weight: 700;
+  }
+  .windows-text03 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .windows-text04 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .windows-text05 {
+    font-style: normal;
+    font-weight: 800;
+  }
+  .windows-text08 {
+    color: #ff0000;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .windows-text09 {
+    color: #ff0000;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .windows-text10 {
+    color: #ff0000;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .windows-text12 {
+    color: #ff0000;
+    font-style: normal;
+    font-weight: 800;
   }
 }
 @media(max-width: 479px) {

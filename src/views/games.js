@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
-import Header from '../components/header'
+import Navbar from '../components/navbar'
 import './games.css'
 
 const Games = (props) => {
@@ -20,15 +21,13 @@ const Games = (props) => {
           content="Здесь можна знайсці пераклады на розныя гульні на беларускую мову!"
         />
       </Helmet>
-      <Header rootClassName="header-root-class-name5"></Header>
-      <div className="games-hero">
+      <Navbar></Navbar>
+      <h1 className="games-text">Гульні</h1>
+      <Link to="/celeste" className="games-navlink">
         <div className="games-feature-card">
-          <h2 className="games-text">Celeste</h2>
+          <h2 className="games-text1">Celeste</h2>
         </div>
-        <div className="games-container1">
-          <h1 className="games-text1">Гульні</h1>
-        </div>
-      </div>
+      </Link>
     </div>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
-import Header from '../components/header'
+import Navbar from '../components/navbar'
 import './dead-str.css'
 
 const DeadStr = (props) => {
@@ -20,7 +20,7 @@ const DeadStr = (props) => {
           content="Здесь можна знайсці пераклады на розныя гульні на беларускую мову!"
         />
       </Helmet>
-      <Header rootClassName="header-root-class-name1"></Header>
+      <Navbar rootClassName="navbar-root-class-name"></Navbar>
       <div className="dead-str-hero">
         <h1 className="dead-str-text">
           <span>Разделі Пакой</span>

@@ -85,29 +85,6 @@
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.header-root-class-name {
-  min-width: 100%;
-}
-.header-root-class-name1 {
-  max-width: 100%;
-  min-width: 100%;
-}
-.header-root-class-name2 {
-  max-width: 100%;
-  min-width: 100%;
-}
-.header-root-class-name3 {
-  max-width: 100%;
-  min-width: 100%;
-}
-.header-root-class-name4 {
-  max-width: 100%;
-  min-width: 100%;
-}
-.header-root-class-name5 {
-  max-width: 100%;
-  min-width: 100%;
-}
 .header-root-class-name6 {
   max-width: 100%;
   min-width: 100%;
@@ -138,8 +115,5 @@
   }
   .header-mobile-menu {
     padding: 16px;
-  }
-  .header-root-class-name {
-    flex: 1;
   }
 }

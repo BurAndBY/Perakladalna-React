@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
-import Header from '../components/header'
+import Navbar from '../components/navbar'
 import './about-us.css'
 
 const AboutUs = (props) => {
@@ -20,16 +20,15 @@ const AboutUs = (props) => {
           content="Здесь можна знайсці пераклады на розныя гульні на беларускую мову!"
         />
       </Helmet>
-      <Header rootClassName="header-root-class-name4"></Header>
+      <Navbar rootClassName="navbar-root-class-name3"></Navbar>
       <div className="about-us-hero">
         <div className="about-us-container1">
-          <h1 className="about-us-text">А нас</h1>
+          <h1 className="about-us-text">Пра нас</h1>
           <span className="about-us-text1">
             <span className="about-us-text2">Гэта сайт перакладчыка</span>
             <span className="about-us-text3">ў</span>
             <span className="about-us-text4">
-              {' '}
-              Jackbox на беларускую мову. Пераклады будут вельмі не частымі.
+               гульняў на беларускую мову. Пераклады будут вельмі не частымі.
               Гульняў на беларускай мове не шмат, таму я буду рабіць пераклады
               сам.
             </span>

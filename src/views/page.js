@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
-import Header from '../components/header'
+import Navbar from '../components/navbar'
 import './page.css'
 
 const Page = (props) => {
@@ -21,7 +21,7 @@ const Page = (props) => {
           content="Здесь можна знайсці пераклады на розныя гульні на беларускую мову!"
         />
       </Helmet>
-      <Header rootClassName="header-root-class-name"></Header>
+      <Navbar rootClassName="navbar-root-class-name1"></Navbar>
       <div className="page-container1">
         <h1 className="page-text">Celeste</h1>
         <h1 className="page-text1">Апошняе аднаўленне 14.11.2022</h1>

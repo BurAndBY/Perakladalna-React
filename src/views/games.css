@@ -7,24 +7,25 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.games-hero {
-  width: 100%;
-  display: flex;
-  padding: var(--dl-space-space-threeunits);
-  position: relative;
-  max-width: var(--dl-size-size-maxwidth);
-  min-height: 80vh;
-  flex-direction: column;
-  justify-content: center;
+.games-text {
+  font-size: 4em;
+  align-self: center;
+  font-style: normal;
+  font-family: Manrope;
+  font-weight: 800;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-bottom: var(--dl-space-space-twounits);
+}
+.games-navlink {
+  display: contents;
 }
 .games-feature-card {
-  top: 243px;
-  left: 133px;
-  width: 955px;
+  flex: 0.03;
+  width: 1080px;
   display: flex;
   padding: var(--dl-space-space-unit);
-  position: absolute;
   max-width: var(--dl-size-size-maxwidth);
+  align-self: center;
   box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
   transition: 0.3s;
   align-items: center;
@@ -32,59 +33,31 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url("/playground_assets/thumb-1920-986929-1500h.jpg");
+  text-decoration: none;
+  background-image: url("/playground_assets/thumb-1920-986929-1100w.jpg");
 }
 .games-feature-card:hover {
   transform: scale(1.02);
 }
-.games-text {
+.games-text1 {
   color: rgb(255, 255, 255);
   margin: var(--dl-space-space-unit);
   font-size: 3rem;
   font-family: Manrope;
 }
-.games-container1 {
-  display: flex;
-  position: relative;
-  margin-right: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
-  flex-direction: column;
-}
-.games-text1 {
-  top: -258px;
-  left: 7px;
-  position: absolute;
-  font-size: 3rem;
-  max-width: 450px;
-}
 @media(max-width: 991px) {
-  .games-hero {
-    flex-direction: column;
-  }
-  .games-container1 {
-    align-items: center;
+  .games-feature-card {
+    width: 862px;
     margin-right: 0px;
-    margin-bottom: var(--dl-space-space-twounits);
-    padding-right: 0px;
-  }
-  .games-text1 {
-    text-align: center;
   }
 }
 @media(max-width: 767px) {
-  .games-hero {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
+  .games-feature-card {
+    width: 690px;
   }
 }
 @media(max-width: 479px) {
-  .games-hero {
-    padding-top: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-twounits);
-  }
-  .games-container1 {
-    margin-bottom: var(--dl-space-space-unit);
+  .games-feature-card {
+    width: var(--dl-size-size-xxlarge);
   }
 }

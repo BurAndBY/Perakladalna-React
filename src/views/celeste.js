@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
-import Header from '../components/header'
+import Navbar from '../components/navbar'
 import './celeste.css'
 
 const Celeste = (props) => {
@@ -20,7 +20,7 @@ const Celeste = (props) => {
           content="Здесь можна знайсці пераклады на розныя гульні на беларускую мову!"
         />
       </Helmet>
-      <Header rootClassName="header-root-class-name1"></Header>
+      <Navbar rootClassName="navbar-root-class-name2"></Navbar>
       <div className="celeste-hero">
         <h1 className="celeste-text">
           <span>Celeste</span>
@@ -32,10 +32,9 @@ const Celeste = (props) => {
           Дапамажыце Мэдлін перажыць яе ўнутраных дэманаў у яе падарожжы на
           вяршыню гары Селеста ў гэтым звышнапружаным платформеры ад
           стваральнікаў TowerFall. Адважна праходзьце сотні выпрабаванняў,
-          створаных рукамі, адкрывайце падступныя сакрэты і складвайце таямніцу
+          створаных рукамі, адкрывайце падступныя сакрэты і складайце таямніцу
           гары.
         </span>
-        <span className="celeste-text6"></span>
         <a
           href="https://gamebanana.com/mods/412080"
           target="_blank"

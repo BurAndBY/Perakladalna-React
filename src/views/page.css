@@ -126,9 +126,20 @@
   }
 }
 @media(max-width: 767px) {
+  .page-text {
+    width: auto;
+  }
+  .page-navlink {
+    width: var(--dl-size-size-xxlarge);
+  }
   .page-hero {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
+  }
+  .page-btn-group {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 @media(max-width: 479px) {

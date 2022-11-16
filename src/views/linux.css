@@ -27,38 +27,40 @@
   font-size: 3rem;
   max-width: 450px;
 }
-.linux-text1 {
+.linux-text01 {
   font-size: 32px;
   margin-top: var(--dl-space-space-twounits);
   font-family: Manrope;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.linux-text2 {
-  font-size: 32px;
-  font-style: normal;
-  font-family: Manrope;
-  font-weight: 700;
-}
-.linux-text3 {
+.linux-text02 {
   font-style: normal;
   font-weight: 700;
 }
-.linux-text4 {
+.linux-text05 {
+  font-weight: 700;
+}
+.linux-text08 {
   color: #ff0000;
   font-style: normal;
   font-weight: 700;
 }
-.linux-text5 {
+.linux-text09 {
   color: #ff0000;
   font-style: normal;
   font-weight: 700;
 }
-.linux-text6 {
+.linux-text11 {
   color: #ff0000;
   font-style: normal;
   font-weight: 700;
 }
-.linux-text7 {
+.linux-text12 {
+  color: #ff0000;
+  font-style: normal;
+  font-weight: 700;
+}
+.linux-text14 {
   color: #ff0000;
   font-style: normal;
   font-weight: 700;
@@ -76,7 +78,7 @@
   .linux-text {
     text-align: center;
   }
-  .linux-text1 {
+  .linux-text01 {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
@@ -87,9 +89,73 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .linux-text1 {
+  .linux-text01 {
+    font-size: 32px;
+    font-family: Manrope;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
+  }
+  .linux-text02 {
+    font-size: 32px;
+    font-style: normal;
+    font-family: Manrope;
+    font-weight: 700;
+  }
+  .linux-text03 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .linux-text04 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .linux-text05 {
+    font-style: normal;
+    font-weight: 800;
+  }
+  .linux-text06 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .linux-text07 {
+    color: #ff0000;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .linux-text08 {
+    color: #ff0000;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .linux-text09 {
+    color: #ff0000;
+    font-style: inherit;
+    font-weight: 500;
+  }
+  .linux-text10 {
+    color: #ff0000;
+    font-style: inherit;
+    font-weight: 500;
+  }
+  .linux-text11 {
+    color: #ff0000;
+    font-style: inherit;
+    font-weight: 500;
+  }
+  .linux-text12 {
+    color: #ff0000;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .linux-text13 {
+    color: #ff0000;
+    font-style: normal;
+    font-weight: 800;
+  }
+  .linux-text14 {
+    color: #ff0000;
+    font-style: normal;
+    font-weight: 800;
   }
 }
 @media(max-width: 479px) {
