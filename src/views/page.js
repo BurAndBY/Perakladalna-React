@@ -29,7 +29,7 @@ const Page = (props) => {
           className="page-image"
         />
         <h1 className="page-text">Апошняе аднаўленне 03.06.2023</h1>
-        <Link to="/celeste" className="page-navlink button">
+        <Link to="/tjpp1" className="page-navlink button">
           Спампаваць
         </Link>
       </div>
