@@ -41,7 +41,7 @@ const AboutUs = (props) => {
         <div className="about-us-feature-card">
           <img
             alt="image"
-            src="/playground_assets/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%B0%D0%B2%D0%B0%D1%82%D0%B0%D1%80%D0%BA%D0%B0%20%5B%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F%5D-1500h.png"
+            src="/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%B0%D0%B2%D0%B0%D1%82%D0%B0%D1%80%D0%BA%D0%B0%20%5B%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F%5D-1500h.png"
             className="about-us-image"
           />
           <h2 className="about-us-text7">BurAndBY</h2>

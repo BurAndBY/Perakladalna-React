@@ -21,7 +21,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: flex-start;
-  background-image: url("/playground_assets/9-1500w.png");
+  background-image: url("/9-1500w.png");
 }
 .dead-str-text {
   color: #ffffff;

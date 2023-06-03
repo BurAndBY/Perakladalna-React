@@ -15,7 +15,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url("/playground_assets/maxresdefault-900h.jpg");
+  background-image: url("/maxresdefault-900h.jpg");
   background-position: center;
 }
 .page-text {

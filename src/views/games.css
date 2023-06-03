@@ -34,7 +34,7 @@
   background-size: cover;
   justify-content: center;
   text-decoration: none;
-  background-image: url("/playground_assets/thumb-1920-986929-1100w.jpg");
+  background-image: url("/thumb-1920-986929-1100w.jpg");
 }
 .games-feature-card:hover {
   transform: scale(1.02);

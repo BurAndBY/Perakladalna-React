@@ -21,7 +21,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: flex-start;
-  background-image: url("/playground_assets/maxresdefault-1500w.jpg");
+  background-image: url("/maxresdefault-1500w.jpg");
 }
 .celeste-text {
   color: rgb(255, 255, 255);
