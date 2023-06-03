@@ -46,7 +46,7 @@ const TJPP1 = (props) => {
           </span>
         </span>
         <a
-          href="https://gamebanana.com/mods/412080"
+          href="https://drive.google.com/file/d/18QZvJvwNf96Onnz0iuXfqK-FbtJZ_qmU/view?usp=sharing"
           target="_blank"
           rel="noreferrer noopener"
           className="tjpp1-link button"
@@ -61,7 +61,8 @@ const TJPP1 = (props) => {
           <h2 className="tjpp1-text15">Мухі Ўрухі - Lie Swatter</h2>
           <img
             alt="image"
-            src="https://static.wikia.nocookie.net/logopedia/images/1/1a/Lie_Swatter_%28Box_Graphic%29.png/revision/latest?cb=20220701121436"
+            src="/lie_swatter_29-300h.webp"
+            loading="eager"
             className="tjpp1-image"
           />
         </div>
