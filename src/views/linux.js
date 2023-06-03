@@ -28,8 +28,9 @@ const Linux = (props) => {
             <span className="linux-text02">
               Каб усталяваць пераклад, накіруйцеся ў вашу папку Steam
               (стандартная папка - ~/.steam/steam), далей адкройце папку
-              steamapps/common/ і пасля устаўце файлы з архіва ў гэтую папку.
-              Запусціце гульню ў Steam і цешьцеся перакладам
+              steamapps/common/&lt;назва гульні&gt; і пасля устаўце файлы з
+              архіва ў гэтую папку. Запусціце гульню ў Steam і цешьцеся
+              перакладам
             </span>
             <br className="linux-text03"></br>
             <br className="linux-text04"></br>

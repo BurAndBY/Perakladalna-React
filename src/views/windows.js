@@ -28,8 +28,9 @@ const Windows = (props) => {
             <span className="windows-text02">
               Каб усталяваць пераклад, накіруйцеся ў вашу папку Steam
               (стандартная папка - C:/Program Files(x86)/Steam), далей адкройце
-              папку steamapps/common/ і пасля устаўце файлы з архіва ў гэтую
-              папку. Запусціце гульню ў Steam і цешьцеся перакладам
+              папку steamapps/common/&lt;назва гульні&gt; пасля устаўце файлы з
+              архіва ў гэтую папку. Запусціце гульню ў Steam і цешьцеся
+              перакладам
             </span>
             <br className="windows-text03"></br>
             <br className="windows-text04"></br>
