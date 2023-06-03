@@ -15,21 +15,16 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url("/maxresdefault-900h.jpg");
+  background-image: url("/pp1background-900h.webp");
   background-position: center;
 }
-.page-text {
-  color: rgb(255, 255, 255);
-  width: 1024px;
-  height: 56px;
-  font-size: 3em;
-  font-style: normal;
-  text-align: center;
-  font-family: Manrope;
-  font-weight: 800;
+.page-image {
+  width: 659px;
+  height: 383px;
+  object-fit: cover;
 }
-.page-text1 {
-  color: rgb(232, 232, 232);
+.page-text {
+  color: var(--dl-color-gray-500);
   font-size: 3em;
   font-style: normal;
   font-family: Manrope;
@@ -67,7 +62,7 @@
   margin-left: var(--dl-space-space-twounits);
   flex-direction: column;
 }
-.page-text2 {
+.page-text1 {
   font-size: 3rem;
 }
 .page-btn-group {
@@ -117,7 +112,7 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
   }
-  .page-text2 {
+  .page-text1 {
     text-align: center;
   }
   .page-btn-group {
@@ -126,9 +121,6 @@
   }
 }
 @media(max-width: 767px) {
-  .page-text {
-    width: auto;
-  }
   .page-navlink {
     width: var(--dl-size-size-xxlarge);
   }
@@ -144,9 +136,6 @@
 }
 @media(max-width: 479px) {
   .page-text {
-    font-size: 2.5em;
-  }
-  .page-text1 {
     text-align: center;
   }
   .page-hero {
@@ -158,7 +147,7 @@
   .page-container2 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .page-text2 {
+  .page-text1 {
     font-size: 2rem;
   }
   .page-btn-group {
