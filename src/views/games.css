@@ -45,8 +45,42 @@
   font-size: 3rem;
   font-family: Manrope;
 }
+.games-navlink1 {
+  display: contents;
+}
+.games-feature-card1 {
+  flex: 0.03;
+  width: 1080px;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  max-width: var(--dl-size-size-maxwidth);
+  align-self: center;
+  box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+  margin-top: var(--dl-space-space-threeunits);
+  transition: 0.3s;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  text-decoration: none;
+  background-image: url('https://jackboxgames.b-cdn.net/wp-content/uploads/2020/05/PP1Background.jpg');
+}
+.games-feature-card1:hover {
+  transform: scale(1.02);
+}
+.games-text2 {
+  color: rgb(255, 255, 255);
+  margin: var(--dl-space-space-unit);
+  font-size: 3rem;
+  font-family: Manrope;
+}
 @media(max-width: 991px) {
   .games-feature-card {
+    width: 862px;
+    margin-right: 0px;
+  }
+  .games-feature-card1 {
     width: 862px;
     margin-right: 0px;
   }
@@ -55,9 +89,15 @@
   .games-feature-card {
     width: 690px;
   }
+  .games-feature-card1 {
+    width: 690px;
+  }
 }
 @media(max-width: 479px) {
   .games-feature-card {
+    width: var(--dl-size-size-xxlarge);
+  }
+  .games-feature-card1 {
     width: var(--dl-size-size-xxlarge);
   }
 }

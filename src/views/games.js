@@ -28,6 +28,14 @@ const Games = (props) => {
           <h2 className="games-text1">Celeste</h2>
         </div>
       </Link>
+      <Link to="/celeste" className="games-navlink1">
+        <div className="games-feature-card1">
+          <h2 className="games-text2">
+            <span>Jackbox Party Pack</span>
+            <br></br>
+          </h2>
+        </div>
+      </Link>
     </div>
   )
 }
